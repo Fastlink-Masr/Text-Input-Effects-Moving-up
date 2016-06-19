@@ -66,13 +66,13 @@
 
 /* Individual styles */
 
-/* Moving-up */
+/* Haruki */
 
-.input--Moving-up {
+.input--haruki {
 	margin: 4em 1em 1em;
 }
 
-.input__field--Moving-up {
+.input__field--haruki {
 	padding: 0.4em 0.25em;
 	width: 100%;
 	background: transparent;
@@ -80,20 +80,20 @@
 	font-size: 1.55em;
 }
 
-.input__label--Moving-up {
+.input__label--haruki {
 	position: absolute;
 	width: 100%;
 	text-align: left;
 	pointer-events: none;
 }
 
-.input__label-content--Moving-up {
+.input__label-content--haruki {
 	-webkit-transition: -webkit-transform 0.3s;
 	transition: transform 0.3s;
 }
 
-.input__label--Moving-up::before,
-.input__label--Moving-up::after {
+.input__label--haruki::before,
+.input__label--haruki::after {
 	content: '';
 	position: absolute;
 	left: 0;
@@ -105,28 +105,28 @@
 	transition: transform 0.3s;
 }
 
-.input__label--Moving-up::before {
+.input__label--haruki::before {
 	top: 0;
 }
 
-.input__label--Moving-up::after {
+.input__label--haruki::after {
 	bottom: 0;
 }
 
-.input__field--Moving-up:focus + .input__label--Moving-up .input__label-content--Moving-up,
-.input--filled .input__label-content--Moving-up {
+.input__field--haruki:focus + .input__label--haruki .input__label-content--haruki,
+.input--filled .input__label-content--haruki {
 	-webkit-transform: translate3d(0, -90%, 0);
 	transform: translate3d(0, -90%, 0);
 }
 
-.input__field--Moving-up:focus + .input__label--Moving-up::before,
-.input--filled .input__label--Moving-up::before {
+.input__field--haruki:focus + .input__label--haruki::before,
+.input--filled .input__label--haruki::before {
 	-webkit-transform: translate3d(0, -0.5em, 0);
 	transform: translate3d(0, -0.5em, 0);
 }
 
-.input__field--Moving-up:focus + .input__label--Moving-up::after,
-.input--filled .input__label--Moving-up::after {
+.input__field--haruki:focus + .input__label--haruki::after,
+.input--filled .input__label--haruki::after {
 	-webkit-transform: translate3d(0, 0.5em, 0);
 	transform: translate3d(0, 0.5em, 0);
 }
